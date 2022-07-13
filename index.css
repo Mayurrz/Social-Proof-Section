@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+* {
+    font-family: 'League Spartan', sans-serif;
+}
+
 html {
     background: url(/bg-pattern-top-mobile.svg) top left, url(/bg-pattern-bottom-mobile.svg) bottom right;
     background-repeat: no-repeat;
@@ -13,7 +18,6 @@ h1 {
     text-align: center;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
-    /* font-family: ; */
 }
 
 p {
@@ -38,13 +42,12 @@ p {
 .star>p {
     margin-bottom: 2px;
     font-size: 18px;
-    font-weight: 500;
-    /* font-family: ; */
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
 }
 
 .str {
     width: auto;
-    /* height: 16px; */
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -83,7 +86,6 @@ h2 {
     color: hsl(0, 0%, 100%);
     font-weight: 500;
     font-size: 20px;
-    /* font-family: ; */
 }
 
 h3 {
@@ -91,7 +93,6 @@ h3 {
     color: hsl(333, 80%, 67%);
     font-weight: 400;
     font-size: 18px;
-    /* font-family: ; */
 }
 
 .reviews>div>p {
@@ -99,7 +100,6 @@ h3 {
     margin-top: 24px;
     text-align: left;
     font-size: 15px;
-    /* font-family: ; */
 }
 
 @media (min-width: 550px) {
@@ -114,8 +114,12 @@ h3 {
     .details {
         width: 40%;
     }
-    h1,
-    p {
+    .details>p {
+        width: 380px;
+        text-align: left;
+    }
+    h1 {
+        font-size: 46px;
         text-align: left;
     }
     .starReview {
@@ -143,8 +147,7 @@ h3 {
     .star>p {
         margin: 2px;
         font-size: 18px;
-        font-weight: 500;
-        /* font-family: ; */
+        font-weight: 700;
     }
     .reviews {
         display: flex;
@@ -168,7 +171,7 @@ h3 {
 
 .attribution {
     margin: 20px;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 
